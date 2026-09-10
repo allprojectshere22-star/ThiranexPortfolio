@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Nissi Fedora X</title>
+  <meta name="description" content="Get in touch with Nissi Fedora X for internships, freelance projects or collaboration.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap nav-bar">
+      <a class="site-title" href="index.html">Nissi Fedora <span>X</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span aria-hidden="true">☰</span> Menu
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-intro">
+      <div class="wrap">
+        <p class="section-kicker">Contact</p>
+        <h1>Let's work together</h1>
+      </div>
+    </div>
+
+    <section aria-label="Contact details and form">
+      <div class="wrap contact-grid">
+
+        <div class="contact-info">
+          <p>Open to internships, freelance projects and collaboration on full-stack or Android work.</p>
+          <dl>
+            <dt>Email</dt>
+            <dd><a href="mailto:fedoranissi@gmail.com">fedoranissi@gmail.com</a></dd>
+
+            <dt>Phone</dt>
+            <dd><a href="tel:+919445510794">+91 94455 10794</a></dd>
+
+            <dt>Location</dt>
+            <dd>Chennai, Tamil Nadu, India</dd>
+
+            <dt>Elsewhere</dt>
+            <dd>
+              <a href="#" rel="noopener">GitHub</a> ·
+              <a href="#" rel="noopener">LinkedIn</a>
+            </dd>
+          </dl>
+        </div>
+
+        <div>
+          <form class="contact-form" id="contact-form" novalidate>
+            <fieldset>
+              <legend>Send a message</legend>
+
+              <div class="form-field">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" autocomplete="name"
+                       aria-describedby="name-error" required>
+                <p class="error-text" id="name-error" role="alert"></p>
+              </div>
+
+              <div class="form-field">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" autocomplete="email"
+                       aria-describedby="email-error" required>
+                <p class="error-text" id="email-error" role="alert"></p>
+              </div>
+
+              <div class="form-field">
+                <label for="message">Message</label>
+                <span class="hint" id="message-hint">At least 10 characters.</span>
+                <textarea id="message" name="message" rows="6"
+                          aria-describedby="message-hint message-error" required></textarea>
+                <p class="error-text" id="message-error" role="alert"></p>
+              </div>
+
+              <button class="btn btn-primary" type="submit">Send message</button>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </fieldset>
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <p>© 2026 Nissi Fedora X. Built with semantic HTML5.</p>
+      <ul class="footer-links">
+        <li><a href="mailto:fedoranissi@gmail.com">Email</a></li>
+        <li><a href="tel:+919445510794">Phone</a></li>
+        <li><a href="#" rel="noopener">GitHub</a></li>
+        <li><a href="#" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
