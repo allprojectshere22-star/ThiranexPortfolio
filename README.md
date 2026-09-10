@@ -22,4 +22,3 @@ A multi-page personal portfolio website built strictly to modern HTML5 semantic 
 
 HTML5 · CSS3 (custom properties, no framework) · Vanilla JavaScript · Google Fonts (Sora, IBM Plex Mono)
 
-## Project structure
