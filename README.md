@@ -1,6 +1,6 @@
 # Nissi Fedora X — Portfolio
 
-A multi-page personal portfolio website built strictly to modern HTML5 semantic standards and WCAG accessibility guidelines. No frameworks, no build step — plain HTML5, CSS3, and vanilla JavaScript.
+A multi-page personal portfolio website built strictly to modern HTML5 semantic standards and WCAG accessibility guidelines. No frameworks, no build step plain HTML5, CSS3, and vanilla JavaScript.
 
 ## Pages
 
